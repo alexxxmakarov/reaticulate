@@ -51,3 +51,53 @@ Bank 21 98 Cinematic Studio Brass Section
 
 //! c=fx i=rip o=note:31
 13 Rips
+
+//! g="Cinematic Series/Studio Brass" n="Full Ensemble"
+//! chase=1,2,5,11,20,64-69
+Bank 21 98 Cinematic Studio Brass Section
+
+//! c=legato i=legato o=note:12,1/note:22,65
+20 Legato
+//! c=long i=note-whole o=note:12,1/note:22,1
+21 Sustain
+//! c=short i=spiccato o=note:17,1
+
+42 Repetitions
+//! c=short i=spiccato o=note:17,33
+41 Staccatissimo
+//! c=short i=staccato o=note:17,65
+40 Staccato
+//! c=short i=sfz o=note:17,127
+54 Sfz
+
+//! c=short i=staccato o=note:13,1
+1 Short Mutes
+//! c=long i=note-whole o=note:13,65/note:22,1
+2 Sustained mutes
+//! c=legato i=con-sord o=note:13,65/note:22,65
+3 Legato mutes
+
+//! c=fx i=multitongued o=note:16,1/note:22,1
+4 Sustained Fluttertongue
+//! c=fx i=multitongued o=note:16,1/note:22,65
+5 Legato Fluttertongue
+
+//! c=fx i=trill-maj2 o=note:15,1/note:22,1
+6 Sustained Trills
+//! c=fx i=trill-maj2 o=note:15,1/note:22,65
+7 Legato Trills
+
+//! c=short i=multitongued o=note:14
+8 Double Tongue
+
+//! c=short i=marcato o=note:18,1/note:22,1
+9 Marcato w/o repetition overlay
+//! c=short i=marcato o=note:18,1/note:22,65
+10 Marcato legato w/o repetition overlay
+//! c=short i=marcato o=note:18,127/note:22,1
+11 Marcato w repetition overlay
+//! c=short i=marcato o=note:18,127/note:22,65
+12 Marcato legato w repetition overlay
+
+//! c=fx i=rip o=note:19
+13 Rips
